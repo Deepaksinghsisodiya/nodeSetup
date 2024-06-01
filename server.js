@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 require("./app");
 
 app.get("/", (req, res) => {
-    res.send("connect");
+    res.send("<h1>Connected</h1>");
 });
 
 app.get("/about", (req, res) => {
